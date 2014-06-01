@@ -7,11 +7,11 @@ require "activelogic/version"
 Gem::Specification.new do |s|
   s.name        = "activelogic"
   s.version     = Activelogic::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Activelogic."
-  s.description = "TODO: Description of Activelogic."
+  s.authors     = ["sorpa'as plat"]
+  s.email       = ["sorpaas@gmail.com"]
+  s.homepage    = "https://github.com/sorpaas/activelogic"
+  s.summary     = "Active Logic for Ruby on Rails"
+  s.description = "Rails Plugin for Convenient Business Logic"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
