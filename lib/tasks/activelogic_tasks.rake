@@ -6,8 +6,8 @@
 namespace :activelogic do
 
   desc "Setup ActiveLogic Plugin"
-  task :setup do
-
+  task :install do
+    system 'rails generate activelogic:install'
   end
-  
+
 end
