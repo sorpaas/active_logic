@@ -3,7 +3,7 @@
 #   # Task goes here
 # end
 
-namespace :activelogic do
+namespace :active_logic do
 
   desc "Setup ActiveLogic Plugin"
   task :install do

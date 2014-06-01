@@ -1,11 +1,11 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "activelogic/version"
+require "active_logic/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "activelogic"
+  s.name        = "active_logic"
   s.version     = ActiveLogic::VERSION
   s.authors     = ["sorpa'as plat"]
   s.email       = ["sorpaas@gmail.com"]

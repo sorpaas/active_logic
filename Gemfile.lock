@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    activelogic (0.0.1)
+    active_logic (0.0.1)
       rails (~> 4.0.1)
 
 GEM
@@ -82,5 +82,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activelogic!
+  active_logic!
   sqlite3

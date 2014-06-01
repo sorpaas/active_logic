@@ -1,7 +1,8 @@
+require File.expand_path('../utils', __FILE__)
 require 'rails/generators'
 
 module ActiveLogic
-  class InstallGenerator
+  class InstallGenerator < Rails::Generators::Base
     source_root File.expand_path('../templates', __FILE__)
     include Generators::Utils::InstanceMethods
 
