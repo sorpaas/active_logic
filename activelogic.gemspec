@@ -6,7 +6,7 @@ require "activelogic/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "activelogic"
-  s.version     = Activelogic::VERSION
+  s.version     = ActiveLogic::VERSION
   s.authors     = ["sorpa'as plat"]
   s.email       = ["sorpaas@gmail.com"]
   s.homepage    = "https://github.com/sorpaas/activelogic"
