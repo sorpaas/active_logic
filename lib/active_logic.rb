@@ -4,15 +4,15 @@ require 'active_logic/config'
 require 'active_logic/acts_as_logic'
 
 module ActiveLogic
-  def self.config(&block)
+  def self.config
     if block_given?
-      block.call(ActiveLogic::Config)
+      yield(ActiveLogic::Config)
     else
       ActiveLogic::Config
     end
   end
 
   def self.model
-    ActiveLogic.config.model.to_s.camelize.constantize
+    ActiveLogic.config.model_name.to_s.camelize.constantize
   end
 end
