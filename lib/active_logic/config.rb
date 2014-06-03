@@ -10,8 +10,8 @@ module ActiveLogic
       def reset
         @model_name = DEFAULT_MODEL_NAME
       end
-
-      reset
     end
+
+    reset
   end
 end

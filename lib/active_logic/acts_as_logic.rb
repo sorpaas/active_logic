@@ -13,8 +13,8 @@ module ActiveLogic
     end
 
     module LocalInstanceMethods
-      def declare
-
+      def declare(prefix, *parameters)
+        
       end
 
       def ask
